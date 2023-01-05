@@ -300,3 +300,62 @@ line-height: 1.1;
     line-height: 24px;
     font-size: 14px;
   }
+
+
+  /* testing page */
+
+.heading{
+    text-align: center;
+  }
+  .heading span{
+    color: var(--main-color);
+    font-weight: 600;
+  }
+  .options-container{
+    /* box-shadow: 0 0 29px 0 #EB6440;
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    z-index: 1; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px,auto));
+    grid-gap:1.5rem;
+    align-items: center;
+  }
+  .box{
+    box-shadow: 0 0 29px 0 #EB6440;
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    z-index: 1;
+    position: relative;
+    margin-top: 4rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #feeee7;
+    padding: 20px;
+    border-radius: 0.5rem;
+  }
+  .box h2{
+    font-size: 1.3rem;
+    color:var(--bg-color) ;
+  }
+  .box h2 a{
+    font-size: 1.4rem;
+    color: var(--bg-color)
+  }
+  .box p{
+    margin: 0.8rem 0 1.8rem;
+    line-height: 1.1; 
+  }
+  .description{
+    margin: 0.8rem 0 1.8rem;
+    line-height: 1.1; 
+    color: var(--bg-color);
+  }
+  .box:hover {
+    background: #EB6440;
+    top: 0;
+    border-radius: 0px;
+  }
