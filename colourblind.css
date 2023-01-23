@@ -1,0 +1,174 @@
+body {
+    background-color: #f9f2ec;
+  }
+  .prompt{
+    font-weight: 900px ;
+   text-align: center;
+   margin-top: 70px;
+  }
+  #myimage01{
+   position: relative;
+    top: -100px;
+  }
+  
+  .left{
+  float: left;
+  position: relative;
+    position: absolute;
+    margin-right: 500px;
+    z-index:101;
+    bottom:200px;
+    left: 200px;
+  
+  
+    
+  }
+  .right{
+  float: right;
+  float: left;
+  position: relative;
+    position: absolute;
+    margin-right: 500px;
+    z-index:101;
+    bottom:200px;
+    left: 550px;
+  
+    
+  }
+  .up{
+   position: relative;
+    position: absolute;
+    margin-right: 500px;
+    z-index:101;
+    top:260px;
+    left: 370px;
+  }
+  .down{
+   position: bottom;
+    position: absolute;
+    
+  
+    position: relative;
+    position: absolute;
+    margin-right: 500px;
+    z-index:101;
+    bottom:100px;
+    left: 370px;
+  
+  }
+  
+  /* interfaces.css */
+  .textprompt{
+      text-indent: 50px;
+      text-align: justify;
+      letter-spacing: 3px;
+      text-align: center;
+      vertical-align: text-top;
+      margin-top: 250px;
+      
+  }
+  .next{ 
+       background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+  }
+  h1 {
+      font-size: 2.5em; /* 40px/16=2.5em */
+  }
+  
+  h2 {
+      font-size: 1.875em; /* 30px/16=1.875em */
+  }
+  
+  p {
+      font-size: 2.0em; /* 14px/16=0.875em */
+  }
+  
+  /* introtest.css */
+  body{
+    min-height: 100vh;
+    background:#ccdde0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .next{
+    background-color: #4CAF50; /* Green */
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+  }
+  .words{
+   text-align: center;
+  }
+  .proceed{
+   text-align: center;
+   margin-top: 20px;
+  }
+  .mainmenu{
+   
+  
+   text-indent: 50px;
+   text-align: justify;
+   letter-spacing: 3px;
+   text-align: center;
+   vertical-align: text-top;
+   margin-top: 50px;
+  }
+  
+  .title{
+   text-align: center;
+   text-transform: uppercase;
+   color: #4CAF50;
+   margin-top: 120px;
+  }
+  .button {
+   background-color: #4CAF50; /* Green */
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin-left: 0px
+  }
+  
+  /* style.css */
+  *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    min-height: 100vh;
+    background:#ccdde0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  
+  button{
+    flex: 0 0 20%;
+    margin: 5px 0;
+   width:100px;
+   height: 48px;
+   font-size: 22px;
+   font-weight: 600;
+   border-radius: 10px;
+   cursor:pointer; 
+  }
+  
